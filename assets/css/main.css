@@ -81,3 +81,18 @@ body {
   font-size: 1rem;
   margin-bottom: 18px;
 }
+.main-container .input-email--container .primary-button {
+  margin-bottom: 15px;
+  width: 308px;
+  height: 41px;
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: none;
+}
+.main-container .input-email--container .primary-button:hover {
+  cursor: pointer;
+  background-color: hsl(223, 100%, 88%);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
