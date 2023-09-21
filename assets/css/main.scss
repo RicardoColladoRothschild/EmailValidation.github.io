@@ -89,8 +89,14 @@ body{
                     border-radius:50px;
                     outline: none;
                     border: 1px solid $paleBlue;
-                    margin-bottom:15px;
+                    margin-bottom:8px;
                     font-size:1.4rem;
+                }
+
+                .wrong-email--container{
+                    color:$lightRed;
+                    font-size:1.0rem;
+                    margin-bottom:18px;
                 }
         }
 
