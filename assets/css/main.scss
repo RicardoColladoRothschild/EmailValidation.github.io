@@ -49,8 +49,49 @@ body{
 
         .title-container{
             margin-bottom:35px;
+            @include flexCentered(flex,center,center,column);
 
-                .image-title--container{}
+                .image-title--container{
+                    margin-bottom:40px;
+                    @include flexCentered(flex,center,center,none);
+
+                }
+
+                .subtitle-container{
+                    margin-bottom:10px;
+                    font-size:2.4rem;
+                    font-weight:300;
+                    color:$grey;
+                    text-align:center;
+                        span{
+                            color:black;
+                            font-weight:600;
+                        }
+                }
+
+                .subscribe-paragraph{
+                    font-size:1.2rem;
+                    font-weight:200;
+                    color:$grey;
+                }
+        }
+
+
+
+        .input-email--container{
+            width:100%;
+            @include flexCentered(flex,center,center,column);
+
+                input{
+                    width:310px;
+                    height:41px;
+                    padding:8px 35px;
+                    border-radius:50px;
+                    outline: none;
+                    border: 1px solid $paleBlue;
+                    margin-bottom:15px;
+                    font-size:1.4rem;
+                }
         }
 
 }

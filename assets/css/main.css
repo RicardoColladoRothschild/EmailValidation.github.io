@@ -31,4 +31,48 @@ body {
 }
 .main-container .title-container {
   margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container .title-container .image-title--container {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+}
+.main-container .title-container .subtitle-container {
+  margin-bottom: 10px;
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+}
+.main-container .title-container .subtitle-container span {
+  color: black;
+  font-weight: 600;
+}
+.main-container .title-container .subscribe-paragraph {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: hsl(0, 0%, 59%);
+}
+.main-container .input-email--container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container .input-email--container input {
+  width: 310px;
+  height: 41px;
+  padding: 8px 35px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid hsl(223, 100%, 88%);
+  margin-bottom: 15px;
+  font-size: 1.4rem;
 }
