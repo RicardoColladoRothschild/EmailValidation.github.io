@@ -21,10 +21,14 @@ body {
 }
 
 .main-container {
+  margin-top: 55px;
   width: 360px;
   height: 75vh;
   display: flex;
-  justify-content: center;
+  justify-content: none;
   align-items: center;
   flex-direction: column;
+}
+.main-container .title-container {
+  margin-bottom: 35px;
 }
